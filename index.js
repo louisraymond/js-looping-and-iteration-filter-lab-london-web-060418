@@ -7,11 +7,11 @@ function findMatching(drivers, string){
 }
 
 
-function fuzzyMatch(drivers,string){
-  let lengthOfName = string.length;
+function fuzzyMatch (list, partialName) {
+  let lengthOfName = partialName.length;
   return list.filter(function (driverName) {
     return driverName.slice(0, lengthOfName) === partialName;
-  })
+  });
 }
 
 // function matchName(drivers, string){
