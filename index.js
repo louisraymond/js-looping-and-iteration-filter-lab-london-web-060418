@@ -13,8 +13,8 @@ function findMatching(drivers, string){
 //   })
 // }
 
-function matchName(drivers, string){
-  return drivers.filter(function(drivername){
-    driver.name.toUpperCase==string.toUpperCase
-  })
-}
+// function matchName(drivers, string){
+//   return drivers.filter(function(drivername){
+//     driver.name.toUpperCase==string.toUpperCase
+//   })
+// }
