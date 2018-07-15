@@ -6,11 +6,6 @@ function findMatching(drivers, string){
     })
 }
 
-function findMatching (list, name) {
-  return list.filter(function (driverName) {
-    return driverName.toLowerCase() === name.toLowerCase();
-  });
-}
 
 // function fuzzyMatch(drivers,string){
 //   let lengthOfName = string.length;
